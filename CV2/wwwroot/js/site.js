@@ -31,3 +31,16 @@ $(document).ready(function () {
         $('#net').hide();
     });
 });
+
+function initMap() {
+    var location = { lat: 49.9683477, lng: 24.5909639 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 8,
+        center: location
+    });
+
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map
+    });
+}
