@@ -1,0 +1,9 @@
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.csprojAssemblyReference.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.csproj.CoreCompileInputs.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.MvcApplicationPartsAssemblyInfo.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.AssemblyInfoInputs.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.AssemblyInfo.cs
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.TagHelpers.input.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.TagHelpers.output.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.dll
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp3.1\CV2.pdb
