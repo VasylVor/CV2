@@ -1,4 +1,6 @@
-﻿@{
+﻿@model EmailModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -287,64 +289,65 @@
         </div>
     </div>
 </div>
-<div id="Works" class="section Works"></div>
+
+<div id="Works" class="section Works">
+    
+</div>
+
 <div id="Contacts" class="section Contacts">
     <div class="containerContacts">
         <div class="boxContacts">
-            <div class="iconContacts">
+            <a id="location" class="iconContacts">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <h4>My Location</h4>
                 <h3>Ukraine, Busk Rynok square</h3>
-            </div>
+            </a>
         </div>
         <div class="boxContacts">
-            <div class="iconContacts">
+            <a id="phone" class="iconContacts">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <h4>Mobile</h4>
                 <h3>+380686212873</h3>
+            </a>
+        </div>
+        <div class="boxContacts">
+            <a id="mail" class="iconContacts">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h4>Email</h4>
+                <h3>vasilvoronin0@gmail.com</h3>
+            </a>
+        </div>
+        @*<div class="boxContacts">
+            <div class="iconContacts">
+                <i class="fa fa-git" aria-hidden="true"></i>
+                <h4>GitHub</h4>
+                <h4>vasilvoronin0@gmail.com</h4>
             </div>
         </div>
         <div class="boxContacts">
             <div class="iconContacts">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <h4>Email</h4>
-                <h3>vasilvoronin0@gmail.com</h3>
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <h4>FaceBook</h4>
+                <h4>vasilvoronin0@gmail.com</h4>
             </div>
         </div>
-        @*<div class="boxContacts">
-                <div class="iconContacts">
-                    <i class="fa fa-git" aria-hidden="true"></i>
-                    <h4>GitHub</h4>
-                    <h4>vasilvoronin0@gmail.com</h4>
-                </div>
+        <div class="boxContacts">
+            <div class="iconContacts">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <h4>LinkedIn</h4>
+                <h4>vasilvoronin0@gmail.com</h4>
             </div>
-            <div class="boxContacts">
-                <div class="iconContacts">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                    <h4>FaceBook</h4>
-                    <h4>vasilvoronin0@gmail.com</h4>
-                </div>
-            </div>
-            <div class="boxContacts">
-                <div class="iconContacts">
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    <h4>LinkedIn</h4>
-                    <h4>vasilvoronin0@gmail.com</h4>
-                </div>
-            </div>*@
-    </div>
+        </div>*@
+
+        @*<form asp-controller="Home" asp-action="Check" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#results" method="post">
+
+    *@</div>
     <div id="sendEmail" class="sendEmail">
-        <div class="contatct-form">
-            <div class="input-fields">
-                <input type="text" class="input" placeholder="Name" />
-                <input type="text" class="input" placeholder="Email Addresss" />
-                <input type="text" class="input" placeholder="Subject" />
-            </div>
-            <div class="message">
-                <textarea placeholder="Message"></textarea>
-                <div class="btn">Submit</div>
-            </div>
-        </div>
+            <form  class="contatct-form" >
+                @await Html.PartialAsync("SendEmail")
+            </form>
+
     </div>
-    <div id="map" class="map" style="visibility:hidden;"></div>
+
+    <div id="map" class="map" ></div>
 </div>

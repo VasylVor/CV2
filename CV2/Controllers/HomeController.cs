@@ -5,19 +5,37 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CV2.Models;
+using CV2.BLL;
+using Microsoft.Extensions.Logging;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace CV2.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost()]
+        public async Task<IActionResult> Index(EmailModel model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                Email email = new Email();
+                await email.SendEmailAsync(model.FromMessage, model.Subject,model.Text);
+                ViewBag.Message = "Message send!";
+            }
+            //return "sdfgsdg";
+            return View(model); //View( model);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

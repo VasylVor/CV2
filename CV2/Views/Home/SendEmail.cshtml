@@ -1,0 +1,20 @@
+﻿@model EmailModel
+
+    <div class="input-fields">
+        <input type="text" asp-for="Name" class="input" placeholder="Name" required />
+        <span asp-validation-for="Name" data-valmsg-for="Name" data-valmsg-replace="true" class="text-danger"></span>
+        <input type="text" asp-for="FromMessage" class="input" placeholder="Email Addresss" required />
+        <span asp-validation-for="FromMessage" class="text-danger"></span>
+        <input type="text" asp-for="Subject" class="input" placeholder="Subject" required />
+        <span asp-validation-for="Subject" class="text-danger"></span>
+    </div>
+<div class="message">
+    <textarea asp-for="Text" placeholder="Message" required></textarea>
+    <span asp-validation-for="Text" class="text-danger"></span>
+    <button Id="btn"class="btn" type="submit">Submit</button>
+</div>
+
+@*@if (ViewBag.Message)
+{
+    
+}*@

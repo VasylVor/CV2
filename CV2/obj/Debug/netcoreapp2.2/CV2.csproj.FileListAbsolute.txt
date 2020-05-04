@@ -8,8 +8,6 @@ D:\My projects\CV2\CV2\bin\Debug\netcoreapp2.2\CV2.dll
 D:\My projects\CV2\CV2\bin\Debug\netcoreapp2.2\CV2.pdb
 D:\My projects\CV2\CV2\bin\Debug\netcoreapp2.2\CV2.Views.dll
 D:\My projects\CV2\CV2\bin\Debug\netcoreapp2.2\CV2.Views.pdb
-D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csprojAssemblyReference.cache
-D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csproj.CoreCompileInputs.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.RazorAssemblyInfo.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.RazorAssemblyInfo.cs
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.AssemblyInfoInputs.cache
@@ -18,7 +16,6 @@ D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.TagHelpers.input.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.TagHelpers.output.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.RazorCoreGenerate.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -32,3 +29,6 @@ D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.dll
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.pdb
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.genruntimeconfig.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csproj.CopyComplete
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csprojAssemblyReference.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csproj.CoreCompileInputs.cache
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Home\SendEmail.cshtml.g.cs
