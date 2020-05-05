@@ -32,3 +32,4 @@ D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csproj.CopyComplete
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csprojAssemblyReference.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csproj.CoreCompileInputs.cache
 D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Home\SendEmail.cshtml.g.cs
+D:\My projects\CV2\CV2\bin\Debug\netcoreapp2.2\libman.json

@@ -318,36 +318,34 @@
             </a>
         </div>
         @*<div class="boxContacts">
-            <div class="iconContacts">
-                <i class="fa fa-git" aria-hidden="true"></i>
-                <h4>GitHub</h4>
-                <h4>vasilvoronin0@gmail.com</h4>
+                <div class="iconContacts">
+                    <i class="fa fa-git" aria-hidden="true"></i>
+                    <h4>GitHub</h4>
+                    <h4>vasilvoronin0@gmail.com</h4>
+                </div>
             </div>
-        </div>
-        <div class="boxContacts">
-            <div class="iconContacts">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                <h4>FaceBook</h4>
-                <h4>vasilvoronin0@gmail.com</h4>
+            <div class="boxContacts">
+                <div class="iconContacts">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <h4>FaceBook</h4>
+                    <h4>vasilvoronin0@gmail.com</h4>
+                </div>
             </div>
-        </div>
-        <div class="boxContacts">
-            <div class="iconContacts">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                <h4>LinkedIn</h4>
-                <h4>vasilvoronin0@gmail.com</h4>
-            </div>
-        </div>*@
+            <div class="boxContacts">
+                <div class="iconContacts">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <h4>LinkedIn</h4>
+                    <h4>vasilvoronin0@gmail.com</h4>
+                </div>
+            </div>*@
 
         @*<form asp-controller="Home" asp-action="Check" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#results" method="post">
 
-    *@</div>
+        *@
+    </div>
     <div id="sendEmail" class="sendEmail">
-            <form  class="contatct-form" >
-                @await Html.PartialAsync("SendEmail")
-            </form>
-
+        @await Html.PartialAsync("SendEmail")
     </div>
 
-    <div id="map" class="map" ></div>
-</div>
+        <div id="map" class="map"></div>
+    </div>

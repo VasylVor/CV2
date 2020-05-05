@@ -90,7 +90,7 @@ $(document).ready(function () {
     $('#btn').on('click', function (evt) {
         evt.preventDefault();
         $.post('', $('contatct-form').serialize(), function () {
-            return View(model);
+            alert('');
             });
     });
 });
