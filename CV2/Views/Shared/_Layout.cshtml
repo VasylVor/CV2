@@ -39,14 +39,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">VVS</a>
-        <ul>
-            <li><a href="#Main">Main</a></li>
-            <li><a href="#Skils">Skills</a></li>
-            <li><a href="#Project">Project</a></li>
-            <li><a href="#Works">Works</a></li>
-            <li><a href="#Contacts">Contacts</a></li>
-        </ul>
+        @await Html.PartialAsync("Menu")       
     </header>
     <div class="section">
         @RenderBody()
@@ -57,6 +50,8 @@
                 &copy; 2020 - CV2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
             </div>
         </footer>*@
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
 
     @RenderSection("Scripts", required: false)
 </body>

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My projects\\CV2\\CV2\\CV2.csproj": {}
+    "D:\\Воронін Василь\\домашка\\CV2\\CV2\\CV2.csproj": {}
   },
   "projects": {
-    "D:\\My projects\\CV2\\CV2\\CV2.csproj": {
+    "D:\\Воронін Василь\\домашка\\CV2\\CV2\\CV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My projects\\CV2\\CV2\\CV2.csproj",
+        "projectUniqueName": "D:\\Воронін Василь\\домашка\\CV2\\CV2\\CV2.csproj",
         "projectName": "CV2",
-        "projectPath": "D:\\My projects\\CV2\\CV2\\CV2.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "D:\\My projects\\CV2\\CV2\\obj\\",
+        "projectPath": "D:\\Воронін Василь\\домашка\\CV2\\CV2\\CV2.csproj",
+        "packagesPath": "C:\\Users\\vvoronin4035\\.nuget\\packages\\",
+        "outputPath": "D:\\Воронін Василь\\домашка\\CV2\\CV2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vvoronin4035\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

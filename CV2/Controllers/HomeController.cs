@@ -38,6 +38,11 @@ namespace CV2.Controllers
             return View(model); //View( model);
         }
 
+        public IActionResult Menu()
+        {
+            return PartialView("Menu");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
