@@ -69,3 +69,4 @@ D:\Воронін Василь\домашка\CV2\CV2\obj\Debug\netcoreapp2.2\CV
 D:\Воронін Василь\домашка\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.genruntimeconfig.cache
 D:\Воронін Василь\домашка\CV2\CV2\obj\Debug\netcoreapp2.2\CV2.csproj.CopyComplete
 D:\Воронін Василь\домашка\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Home\Menu.cshtml.g.cs
+D:\My projects\CV2\CV2\obj\Debug\netcoreapp2.2\Razor\Views\Home\Menu.cshtml.g.cs
